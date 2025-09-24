@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HematoContador</string>
+    <string name="push_button">Presiona la pantalla para agregar 1 al contador</string>
+</resources>
