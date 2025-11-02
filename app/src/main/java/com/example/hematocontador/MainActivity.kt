@@ -1,6 +1,7 @@
 package com.example.hematocontador
 
 import android.os.Bundle
+import android.widget.FrameLayout
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        var main = findViewById<LinearLayout>(R.id.main)
+        var main = findViewById<FrameLayout>(R.id.main)
         var counter = findViewById<TextView>(R.id.counter)
 
         main.setOnClickListener {
